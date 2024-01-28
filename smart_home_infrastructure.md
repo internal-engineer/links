@@ -7,7 +7,7 @@
 
 [Orange Pi PC+](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-PC-Plus.html) - мой мини пк. С 2020 года работает 24/7. Никаких проблем замечено не было, работает стабильно.  
 [Orange Pi 3 LTS](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/orange-pi-3-LTS.html) - тот мини пк, что я бы покупал сейчас.  
-Вариант на процессоре N100 - мини пк для тех кому нужно много мощности.  
+[Вариант на процессоре N100](https://fas.st/DOr-H) - мини пк для тех кому нужно много мощности.  
 Таблица сравнения процессоров [Orange Pi](https://www.cpubenchmark.net/compare/4197vs4128vs5273vs4906/ARM-Cortex-A7-4-Core-1200-MHz-vs-ARM-Cortex-A53-4-Core-1800-MHz-vs-Rockchip-RK3399-Board-(Android)-vs-Rockchip-RK3588) и [Raspberry Pi с N100](https://www.cpubenchmark.net/compare/4143vs4078vs5743vs5157/ARM-Cortex-A53-4-Core-1400-MHz-vs-ARM-Cortex-A72-4-Core-1800-MHz-vs-ARM-Cortex-A76-4-Core-2400-MHz-vs-Intel-N100)  
 Ссылки на Aliexpress: [Orange Pi PC+](https://fas.st/z_2-k) | [Orange Pi 3 LTS](https://fas.st/aZPTx) | [N100](https://fas.st/DOr-H)
 
