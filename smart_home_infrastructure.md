@@ -139,3 +139,8 @@ docker run \
 
  - [Официальная инструкция](https://www.zigbee2mqtt.io/guide/installation/02_docker.html) по установке в Docker.
  - [Ссылка](https://www.google.com/search?q=%D0%BA%D0%B0%D0%BA%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20Zigbee2MQTT%20%D0%B2%20docker) которая точно поможет установить Zigbee2MQTT.
+
+## Разное
+
+Ссылки на статьи про сбои: [1](https://nsn.fm/society/yandeks-vosstanovil-rabotu-gadzhetov-umnogo-doma-posle-sboya), [2](https://3dnews.ru/1097364/uyandeksa-proizoshyolmasshtabniy-sboy-v-prilogeniiumniy-dom-ne-rabotayut-kolonki-salisoy-i-drugie-gadgeti), [3](https://ria.ru/20230904/sboy-1894192706.html)  
+Тут можно бесплатно [скачать VirtualBox](https://www.virtualbox.org/wiki/Downloads), а тут можно [скачать Ubuntu](https://ubuntu.com/download/server).
