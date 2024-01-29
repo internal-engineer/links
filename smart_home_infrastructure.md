@@ -26,6 +26,7 @@
 
 Записать образ на карту памяти можно через [balenaEtcher](https://etcher.balena.io/).  
 Подключаться по SSH можно через [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).  
+Команда где можно подключиться к Wi-Fi, доустановить ПО, настроить часовые пояса и т.д.: **sudo armbian-config**  
 [Официальная инструкция](https://docs.armbian.com/User-Guide_Getting-Started/) по установке Armbian.  
 [Инструкция](https://jumptuck.com/blog/2023-02-13-install-linux-orange-pi-3-lts-emmc/) как установить Linux на Orange Pi 3 LTS и потом перенести его во встроенную память.  
 [Ещё одна инструкция](https://wiki.kobol.io/helios64/install/transfer/) о том как перенести Armbian во встроенную память (в видео я показывал скриншоты из этой инструкции).
