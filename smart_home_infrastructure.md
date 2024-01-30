@@ -87,6 +87,7 @@
 
  - Как [поменять время](https://wiki.alpinelinux.org/wiki/Setting_the_timezone) в контейнере Node-RED.
  - [Список](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) часовых поясов.
+ - [Ссылка из Google Trends](https://trends.google.com/trends/explore?geo=RU&q=%2Fg%2F11fzxlb_q4,%2Fg%2F11b8ypg_91&hl=en), где я сравнивал Home Assistant и Node-RED.
 
 ## Mosquitto
 
