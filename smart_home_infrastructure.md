@@ -65,7 +65,7 @@
 
 ## Node-RED
 
-Установить Docker можно при помощи команды (поменяйте временную зону если это необходимо):
+Установить Docker можно при помощи команды (поменяйте часовой пояс если это необходимо):
 
     docker run -it \
       -p 1880:1880 \
@@ -83,7 +83,7 @@
 А также:
 
  - Как [поменять время](https://wiki.alpinelinux.org/wiki/Setting_the_timezone) в контейнере Node-RED.
- - [Список](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) временны зон.
+ - [Список](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) часовых поясов.
 
 ## Mosquitto
 
