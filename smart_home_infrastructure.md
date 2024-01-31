@@ -148,4 +148,4 @@ docker run \
 ## Разное
 
 Ссылки на статьи про сбои: [1](https://nsn.fm/society/yandeks-vosstanovil-rabotu-gadzhetov-umnogo-doma-posle-sboya), [2](https://3dnews.ru/1097364/uyandeksa-proizoshyolmasshtabniy-sboy-v-prilogeniiumniy-dom-ne-rabotayut-kolonki-salisoy-i-drugie-gadgeti), [3](https://ria.ru/20230904/sboy-1894192706.html)  
-Тут можно бесплатно [скачать VirtualBox](https://www.virtualbox.org/wiki/Downloads), а тут можно [скачать Ubuntu](https://ubuntu.com/download/server).
+Тут можно бесплатно [скачать VirtualBox](https://www.virtualbox.org/wiki/Downloads), а тут [Ubuntu](https://ubuntu.com/download/server).
