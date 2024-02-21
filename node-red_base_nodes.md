@@ -10,4 +10,4 @@
 
 [Библиотека](https://flows.nodered.org/search?type=node) дополнительных нод
 
-Тут можно получить [код всех примеров](#) что я делал в видео.
+Тут можно получить [код всех примеров](https://github.com/internal-engineer/links/blob/main/node-red_base_nodes_flow.json) что я делал в видео.
