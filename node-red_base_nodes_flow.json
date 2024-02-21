@@ -1,0 +1,1998 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Примеры",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e6cac21e090285a8",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "2) Пример с \"погодой и снегом\"",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "29488cf64c762d4d",
+            "3d23a0fd23d7cd47"
+        ],
+        "x": 54,
+        "y": 239,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "9d59478db3043869",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "3) Получение конкретного ключа сложного объекта",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3d284922c999fa40",
+            "3a4a3dc877111a91",
+            "72f55f685822db9e"
+        ],
+        "x": 54,
+        "y": 339,
+        "w": 412,
+        "h": 162
+    },
+    {
+        "id": "1393c4e6b391d53f",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "4) Сортировка при помощи switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a7062ed0b0790173",
+            "77a2bc9948a34078",
+            "5d1ce3494b505502",
+            "2850e8c13fc21683",
+            "8981d10c7e452bef",
+            "ccab908abd7e6a4e",
+            "1842af59ddb98ba9",
+            "88b47677ed8846b5"
+        ],
+        "x": 54,
+        "y": 519,
+        "w": 612,
+        "h": 262
+    },
+    {
+        "id": "50f237feb29530e0",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "5) Пример работы switch с температурой",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9017068bc9cd7539",
+            "15294468912647ca",
+            "709a30fb952cb280",
+            "67d31e8da8d0e40b",
+            "f7130a1f84863f7d",
+            "a4aea1d95411b4d3"
+        ],
+        "x": 54,
+        "y": 799,
+        "w": 912,
+        "h": 162
+    },
+    {
+        "id": "635e8b70fa2ff02c",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "6) Изменение payload при помощи ноды change",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8aa7a7baaae2ea82",
+            "f6ad131ffddbca4d",
+            "c036ba8fe5cc43db",
+            "169491130d5e5617"
+        ],
+        "x": 54,
+        "y": 979,
+        "w": 672,
+        "h": 142
+    },
+    {
+        "id": "3e3c3ce7396d1520",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "7) Работа с переменными контекста",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9cce3ab50f586b40",
+            "e81fcc04b0a4bf06",
+            "fbb610d989c4cf44",
+            "1ebda63e8dee01f4",
+            "5bfa04e28dc5bc96",
+            "9ee30fe2d316c168"
+        ],
+        "x": 54,
+        "y": 1139,
+        "w": 412,
+        "h": 202
+    },
+    {
+        "id": "36cf8eecfeab83ac",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "8) Пример с silent_mode",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "05f0ee12970c43a7",
+            "5dfdcf2860eea040",
+            "1ae6c1572ce1e2e9",
+            "886e4927c831c01f",
+            "7c7aa054ab94744b",
+            "afe40c34c95836a6",
+            "8c5c1e3ac40b98f6",
+            "09d88c498b705306",
+            "fc91898cd439a063"
+        ],
+        "x": 54,
+        "y": 1359,
+        "w": 702,
+        "h": 382
+    },
+    {
+        "id": "57b282117f6c0260",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "9) Пример с delay",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3adfd14e0de5940c",
+            "b99876241af128f3",
+            "4179865b71f48248",
+            "b0992a82a5337f69",
+            "79f5b52d445047ae"
+        ],
+        "x": 54,
+        "y": 1759,
+        "w": 722,
+        "h": 122
+    },
+    {
+        "id": "333618a34a417329",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "10) Пример с вымышленным пингом",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1153225a32943833",
+            "1daa31abc0b928a2",
+            "322725e944b1d082",
+            "95e6f3311e966d1a"
+        ],
+        "x": 54,
+        "y": 1899,
+        "w": 592,
+        "h": 162
+    },
+    {
+        "id": "e9d233420c0e466f",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "11) Финальный пример",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d3db6637c9c03310",
+            "b7339dc0c738493a",
+            "7c131b0b82a75755",
+            "24523b343f9b3b5a",
+            "2797a8c38a040b24",
+            "2ff8ae3b096c5efd",
+            "3f2560964e289bc1",
+            "f75de8b0fdae4de6",
+            "7569e503670bba46",
+            "6d52049b05024505",
+            "7f5a8e3d72d753df",
+            "d19bd1284daecfe5",
+            "7734ca2f70c90fcc"
+        ],
+        "x": 54,
+        "y": 2133,
+        "w": 1312,
+        "h": 408
+    },
+    {
+        "id": "53bff7edba98e130",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "1) Имитация датчика открытия/закрытия двери",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e36f764034e8c4c4",
+            "11d51a7b180bce3c",
+            "0a686a64f9b10732"
+        ],
+        "x": 54,
+        "y": 59,
+        "w": 552,
+        "h": 162
+    },
+    {
+        "id": "7734ca2f70c90fcc",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "Переключение ночного режима",
+        "style": {
+            "label": true,
+            "stroke": "#3f93cf",
+            "fill": "#3f93cf",
+            "fill-opacity": "0.1",
+            "label-position": "n",
+            "color": "#3f93cf"
+        },
+        "nodes": [
+            "1eda754e97efa159",
+            "70a8e9ef885b7e75",
+            "be0d5d43edb08bcf",
+            "be3a6f31616d09b2",
+            "b8dbee0d6e75da21"
+        ],
+        "x": 694,
+        "y": 2159,
+        "w": 612,
+        "h": 142
+    },
+    {
+        "id": "29488cf64c762d4d",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "e6cac21e090285a8",
+        "name": "",
+        "props": [
+            {
+                "p": "погода",
+                "v": "хреновая",
+                "vt": "str"
+            },
+            {
+                "p": "снег",
+                "v": "дофига",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "3d23a0fd23d7cd47"
+            ]
+        ]
+    },
+    {
+        "id": "3d23a0fd23d7cd47",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "e6cac21e090285a8",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "3d284922c999fa40",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "9d59478db3043869",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"topic\":\"zigbee2mqtt/door_sensor_test\",\"changed\":{\"old\":null,\"new\":true},\"payload\":true,\"payload_raw\":{\"battery\":100,\"battery_low\":false,\"contact\":true,\"last_seen\":\"2024-02-19T22:49:42+03:00\",\"linkquality\":93,\"tamper\":false,\"voltage\":3000},\"homekit\":{\"ContactSensor\":{\"ContactSensorState\":0},\"ContactSensor_Inverse\":{\"ContactSensorState\":1},\"Battery\":{\"BatteryLevel\":100,\"StatusLowBattery\":0}},\"format\":{},\"selector\":\"zigbee2mqtt_door_sensor_test\",\"item\":{\"date_code\":\"20211103\",\"definition\":{\"description\":\"Contact sensor\",\"exposes\":[{\"access\":1,\"description\":\"Indicates if the contact is closed (= true) or open (= false)\",\"label\":\"Contact\",\"name\":\"contact\",\"property\":\"contact\",\"type\":\"binary\",\"value_off\":true,\"value_on\":false},{\"access\":1,\"description\":\"Indicates if the battery of this device is almost empty\",\"label\":\"Battery low\",\"name\":\"battery_low\",\"property\":\"battery_low\",\"type\":\"binary\",\"value_off\":false,\"value_on\":true},{\"access\":1,\"description\":\"Remaining battery in %, can take up to 24 hours before reported.\",\"label\":\"Battery\",\"name\":\"battery\",\"property\":\"battery\",\"type\":\"numeric\",\"unit\":\"%\",\"value_max\":100,\"value_min\":0},{\"access\":1,\"description\":\"Voltage of the battery in millivolts\",\"label\":\"Voltage\",\"name\":\"voltage\",\"property\":\"voltage\",\"type\":\"numeric\",\"unit\":\"mV\"},{\"access\":1,\"description\":\"Link quality (signal strength)\",\"label\":\"Linkquality\",\"name\":\"linkquality\",\"property\":\"linkquality\",\"type\":\"numeric\",\"unit\":\"lqi\",\"value_max\":255,\"value_min\":0}],\"model\":\"SNZB-04\",\"options\":[],\"supports_ota\":false,\"vendor\":\"SONOFF\"},\"disabled\":false,\"endpoints\":{\"1\":{\"bindings\":[{\"cluster\":\"genPowerCfg\",\"target\":{\"endpoint\":1,\"ieee_address\":\"0x00124b002b488765\",\"type\":\"endpoint\"}}],\"clusters\":{\"input\":[\"genBasic\",\"genIdentify\",\"ssIasZone\",\"genPowerCfg\"],\"output\":[\"genIdentify\"]},\"configured_reportings\":[{\"attribute\":\"batteryVoltage\",\"cluster\":\"genPowerCfg\",\"maximum_report_interval\":7200,\"minimum_report_interval\":3600,\"reportable_change\":0},{\"attribute\":\"batteryPercentageRemaining\",\"cluster\":\"genPowerCfg\",\"maximum_report_interval\":7200,\"minimum_report_interval\":3600,\"reportable_change\":0}],\"scenes\":[]}},\"friendly_name\":\"door_sensor_test\",\"ieee_address\":\"0x00124b002513a6cb\",\"interview_completed\":true,\"interviewing\":false,\"manufacturer\":\"eWeLink\",\"model_id\":\"DS01\",\"network_address\":4088,\"power_source\":\"Battery\",\"supported\":true,\"type\":\"EndDevice\",\"current_values\":{\"battery\":100,\"battery_low\":false,\"contact\":true,\"last_seen\":\"2024-02-19T22:49:42+03:00\",\"linkquality\":93,\"tamper\":false,\"voltage\":3000},\"homekit\":{\"ContactSensor\":{\"ContactSensorState\":0},\"ContactSensor_Inverse\":{\"ContactSensorState\":1},\"Battery\":{\"BatteryLevel\":100,\"StatusLowBattery\":0}},\"format\":{}},\"_msgid\":\"bf7af9c25e929869\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "3a4a3dc877111a91",
+                "72f55f685822db9e"
+            ]
+        ]
+    },
+    {
+        "id": "3a4a3dc877111a91",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "9d59478db3043869",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "72f55f685822db9e",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "9d59478db3043869",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.payload_raw.linkquality",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a7062ed0b0790173",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "8981d10c7e452bef"
+            ]
+        ]
+    },
+    {
+        "id": "77a2bc9948a34078",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 150,
+        "y": 620,
+        "wires": [
+            [
+                "8981d10c7e452bef"
+            ]
+        ]
+    },
+    {
+        "id": "5d1ce3494b505502",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 150,
+        "y": 680,
+        "wires": [
+            [
+                "8981d10c7e452bef"
+            ]
+        ]
+    },
+    {
+        "id": "2850e8c13fc21683",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 150,
+        "y": 740,
+        "wires": [
+            [
+                "8981d10c7e452bef"
+            ]
+        ]
+    },
+    {
+        "id": "8981d10c7e452bef",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "ccab908abd7e6a4e"
+            ],
+            [
+                "1842af59ddb98ba9"
+            ],
+            [
+                "88b47677ed8846b5"
+            ]
+        ]
+    },
+    {
+        "id": "ccab908abd7e6a4e",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1842af59ddb98ba9",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "88b47677ed8846b5",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "1393c4e6b391d53f",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "9017068bc9cd7539",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "28 градусов",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "28",
+        "payloadType": "num",
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "709a30fb952cb280"
+            ]
+        ]
+    },
+    {
+        "id": "15294468912647ca",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "32 градуса",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "32",
+        "payloadType": "num",
+        "x": 180,
+        "y": 920,
+        "wires": [
+            [
+                "709a30fb952cb280"
+            ]
+        ]
+    },
+    {
+        "id": "709a30fb952cb280",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "30",
+                "vt": "str"
+            },
+            {
+                "t": "gte",
+                "v": "30",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 880,
+        "wires": [
+            [
+                "67d31e8da8d0e40b"
+            ],
+            [
+                "f7130a1f84863f7d"
+            ]
+        ]
+    },
+    {
+        "id": "67d31e8da8d0e40b",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "Температура в пределах нормы.",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Температура в пределах нормы.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 840,
+        "wires": [
+            [
+                "a4aea1d95411b4d3"
+            ]
+        ]
+    },
+    {
+        "id": "f7130a1f84863f7d",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "Температура выше 30 градусов!",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Температура выше 30 градусов!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 920,
+        "wires": [
+            [
+                "a4aea1d95411b4d3"
+            ]
+        ]
+    },
+    {
+        "id": "a4aea1d95411b4d3",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "50f237feb29530e0",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "8aa7a7baaae2ea82",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "635e8b70fa2ff02c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Я нода inject",
+        "payloadType": "str",
+        "x": 170,
+        "y": 1080,
+        "wires": [
+            [
+                "f6ad131ffddbca4d",
+                "c036ba8fe5cc43db"
+            ]
+        ]
+    },
+    {
+        "id": "f6ad131ffddbca4d",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "635e8b70fa2ff02c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Я нода change",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1080,
+        "wires": [
+            [
+                "169491130d5e5617"
+            ]
+        ]
+    },
+    {
+        "id": "c036ba8fe5cc43db",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "635e8b70fa2ff02c",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "169491130d5e5617",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "635e8b70fa2ff02c",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "9cce3ab50f586b40",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1180,
+        "wires": [
+            [
+                "e81fcc04b0a4bf06"
+            ]
+        ]
+    },
+    {
+        "id": "e81fcc04b0a4bf06",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "flow.test = один",
+        "rules": [
+            {
+                "t": "set",
+                "p": "test",
+                "pt": "flow",
+                "to": "один",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbb610d989c4cf44",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1240,
+        "wires": [
+            [
+                "1ebda63e8dee01f4"
+            ]
+        ]
+    },
+    {
+        "id": "1ebda63e8dee01f4",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "flow.test = два",
+        "rules": [
+            {
+                "t": "set",
+                "p": "test",
+                "pt": "flow",
+                "to": "два",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5bfa04e28dc5bc96",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "test",
+        "payloadType": "flow",
+        "x": 160,
+        "y": 1300,
+        "wires": [
+            [
+                "9ee30fe2d316c168"
+            ]
+        ]
+    },
+    {
+        "id": "9ee30fe2d316c168",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "3e3c3ce7396d1520",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "05f0ee12970c43a7",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1400,
+        "wires": [
+            [
+                "886e4927c831c01f"
+            ]
+        ]
+    },
+    {
+        "id": "5dfdcf2860eea040",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 09 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1480,
+        "wires": [
+            [
+                "1ae6c1572ce1e2e9"
+            ]
+        ]
+    },
+    {
+        "id": "1ae6c1572ce1e2e9",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "silent_mode",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "886e4927c831c01f",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "silent_mode",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c7aa054ab94744b",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "property": "silent_mode",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 1640,
+        "wires": [
+            [
+                "afe40c34c95836a6"
+            ],
+            [
+                "8c5c1e3ac40b98f6"
+            ]
+        ]
+    },
+    {
+        "id": "afe40c34c95836a6",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Тихий режим выключен. Алиса может говорить.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 1580,
+        "wires": [
+            [
+                "09d88c498b705306"
+            ]
+        ]
+    },
+    {
+        "id": "8c5c1e3ac40b98f6",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Тихий режим включен.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 1700,
+        "wires": [
+            [
+                "09d88c498b705306"
+            ]
+        ]
+    },
+    {
+        "id": "09d88c498b705306",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "fc91898cd439a063",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "36cf8eecfeab83ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1640,
+        "wires": [
+            [
+                "7c7aa054ab94744b"
+            ]
+        ]
+    },
+    {
+        "id": "3adfd14e0de5940c",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "57b282117f6c0260",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Включилась светодиодная лента",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1840,
+        "wires": [
+            [
+                "b99876241af128f3",
+                "79f5b52d445047ae"
+            ]
+        ]
+    },
+    {
+        "id": "b99876241af128f3",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "g": "57b282117f6c0260",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 1840,
+        "wires": [
+            [
+                "4179865b71f48248"
+            ]
+        ]
+    },
+    {
+        "id": "4179865b71f48248",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "57b282117f6c0260",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Включился верхний свет",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1840,
+        "wires": [
+            [
+                "b0992a82a5337f69"
+            ]
+        ]
+    },
+    {
+        "id": "b0992a82a5337f69",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "57b282117f6c0260",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "79f5b52d445047ae",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "57b282117f6c0260",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "1153225a32943833",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "333618a34a417329",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "пингуется",
+        "payloadType": "str",
+        "x": 180,
+        "y": 2020,
+        "wires": [
+            [
+                "1daa31abc0b928a2"
+            ]
+        ]
+    },
+    {
+        "id": "1daa31abc0b928a2",
+        "type": "trigger",
+        "z": "f6f2187d.f17ca8",
+        "g": "333618a34a417329",
+        "name": "",
+        "op1": "",
+        "op2": "Всё плохо. Всё сломалось.",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "пингуется",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 360,
+        "y": 1980,
+        "wires": [
+            [
+                "322725e944b1d082"
+            ]
+        ]
+    },
+    {
+        "id": "322725e944b1d082",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "333618a34a417329",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "95e6f3311e966d1a",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "333618a34a417329",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "НЕ пингуется",
+        "payloadType": "str",
+        "x": 170,
+        "y": 1940,
+        "wires": [
+            [
+                "1daa31abc0b928a2"
+            ]
+        ]
+    },
+    {
+        "id": "5fa25c706fe184bd",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Полезные ссылки",
+        "info": "https://www.youtube.com/watch?v=IReCHprxwQ8 - инструкция по установки Node-RED и некоторых других сервисов\n\nНекоторые полезные ссылки:\nhttps://nodered.org/docs/user-guide/context\nhttps://nodered.org/docs/user-guide/nodes\nhttps://nodered.org/docs/user-guide/messages\nhttps://nodered.org/docs/user-guide/writing-functions\nhttps://flows.nodered.org/search?type=node\nhttps://learn.javascript.ru/object",
+        "x": 150,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "d3db6637c9c03310",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "false (холодильник открыт)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 2200,
+        "wires": [
+            [
+                "24523b343f9b3b5a"
+            ]
+        ]
+    },
+    {
+        "id": "b7339dc0c738493a",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "true (холодильник закрыт)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 2280,
+        "wires": [
+            [
+                "24523b343f9b3b5a"
+            ]
+        ]
+    },
+    {
+        "id": "7c131b0b82a75755",
+        "type": "delay",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "пауза 5 сек.",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 2440,
+        "wires": [
+            [
+                "2797a8c38a040b24"
+            ]
+        ]
+    },
+    {
+        "id": "24523b343f9b3b5a",
+        "type": "trigger",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "",
+        "op1": "",
+        "op2": "Эй, кусок мяса, закрой холодильник!",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "true",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 460,
+        "y": 2240,
+        "wires": [
+            [
+                "7f5a8e3d72d753df"
+            ]
+        ]
+    },
+    {
+        "id": "2797a8c38a040b24",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "текст для второй колонки",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "И сделай это как можно быстрее!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 2440,
+        "wires": [
+            [
+                "6d52049b05024505"
+            ]
+        ]
+    },
+    {
+        "id": "2ff8ae3b096c5efd",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "проверка тихого режима",
+        "property": "silent_mode",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 380,
+        "y": 2440,
+        "wires": [
+            [
+                "7c131b0b82a75755",
+                "f75de8b0fdae4de6"
+            ],
+            [
+                "3f2560964e289bc1"
+            ]
+        ]
+    },
+    {
+        "id": "3f2560964e289bc1",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "текст сообщения для отправки в телеграм",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Сообщение в телеграм, вместо звукового уведомления через колонки.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 2500,
+        "wires": [
+            [
+                "7569e503670bba46"
+            ]
+        ]
+    },
+    {
+        "id": "f75de8b0fdae4de6",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "отправка на колонку (якобы)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "7569e503670bba46",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "отправка в телеграм (якобы)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "6d52049b05024505",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "отправка на колонку (якобы)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "7f5a8e3d72d753df",
+        "type": "link out",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "link out 48",
+        "mode": "link",
+        "links": [
+            "d19bd1284daecfe5"
+        ],
+        "x": 595,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "d19bd1284daecfe5",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "g": "e9d233420c0e466f",
+        "name": "link in 47",
+        "links": [
+            "7f5a8e3d72d753df"
+        ],
+        "x": 205,
+        "y": 2440,
+        "wires": [
+            [
+                "2ff8ae3b096c5efd"
+            ]
+        ]
+    },
+    {
+        "id": "1eda754e97efa159",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "7734ca2f70c90fcc",
+        "name": "тихий режим = ВЫКЛ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "silent_mode",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Тихий режим = ВЫКЛЮЧЕН",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2200,
+        "wires": [
+            [
+                "b8dbee0d6e75da21"
+            ]
+        ]
+    },
+    {
+        "id": "70a8e9ef885b7e75",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "7734ca2f70c90fcc",
+        "name": "23:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 2260,
+        "wires": [
+            [
+                "be3a6f31616d09b2"
+            ]
+        ]
+    },
+    {
+        "id": "be0d5d43edb08bcf",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "7734ca2f70c90fcc",
+        "name": "09:00",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 09 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 2200,
+        "wires": [
+            [
+                "1eda754e97efa159"
+            ]
+        ]
+    },
+    {
+        "id": "be3a6f31616d09b2",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "g": "7734ca2f70c90fcc",
+        "name": "тихий режим = ВКЛ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "silent_mode",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Тихий режим = ВКЛЮЧЕН",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2260,
+        "wires": [
+            [
+                "b8dbee0d6e75da21"
+            ]
+        ]
+    },
+    {
+        "id": "b8dbee0d6e75da21",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "7734ca2f70c90fcc",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "e36f764034e8c4c4",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "53bff7edba98e130",
+        "name": "false (холодильник открыт)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 220,
+        "y": 180,
+        "wires": [
+            [
+                "0a686a64f9b10732"
+            ]
+        ]
+    },
+    {
+        "id": "11d51a7b180bce3c",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "53bff7edba98e130",
+        "name": "true (холодильник закрыт)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "0a686a64f9b10732"
+            ]
+        ]
+    },
+    {
+        "id": "0a686a64f9b10732",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "53bff7edba98e130",
+        "name": "debug 48",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 140,
+        "wires": []
+    }
+]
