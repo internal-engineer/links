@@ -1,0 +1,927 @@
+[
+    {
+        "id": "c547db50a3a34fdf",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "внешняя",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c27d9823407c4859",
+            "4e44f2e135936908",
+            "a78724bb8eaa9502",
+            "b6a5b0ed66d0501e"
+        ],
+        "x": 374,
+        "y": 539,
+        "w": 412,
+        "h": 122
+    },
+    {
+        "id": "c27d9823407c4859",
+        "type": "inject",
+        "z": "60e1c48e0da77525",
+        "g": "c547db50a3a34fdf",
+        "name": "4) закрыта",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "door",
+                "v": "outside",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "close",
+        "payloadType": "str",
+        "x": 480,
+        "y": 580,
+        "wires": [
+            [
+                "b6a5b0ed66d0501e"
+            ]
+        ]
+    },
+    {
+        "id": "4e44f2e135936908",
+        "type": "inject",
+        "z": "60e1c48e0da77525",
+        "g": "c547db50a3a34fdf",
+        "name": "2) открыта",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "door",
+                "v": "outside",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "open",
+        "payloadType": "str",
+        "x": 480,
+        "y": 620,
+        "wires": [
+            [
+                "a78724bb8eaa9502"
+            ]
+        ]
+    },
+    {
+        "id": "a78724bb8eaa9502",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "c547db50a3a34fdf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "outside_open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 620,
+        "wires": [
+            [
+                "84d8855090e884d3",
+                "7579d39928d22ecd"
+            ]
+        ]
+    },
+    {
+        "id": "b6a5b0ed66d0501e",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "c547db50a3a34fdf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "outside_close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 580,
+        "wires": [
+            [
+                "4f0a8275e8227363",
+                "7579d39928d22ecd"
+            ]
+        ]
+    },
+    {
+        "id": "6a5d842d1ac680b9",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "внутренняя",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8f68e1d71b092ea0",
+            "bd5659ef27d0b358",
+            "10f251ca45c531f4",
+            "2431cfd3059780e7"
+        ],
+        "x": 374,
+        "y": 379,
+        "w": 412,
+        "h": 122
+    },
+    {
+        "id": "8f68e1d71b092ea0",
+        "type": "inject",
+        "z": "60e1c48e0da77525",
+        "g": "6a5d842d1ac680b9",
+        "name": "3) закрыта",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "door",
+                "v": "inside",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "close",
+        "payloadType": "str",
+        "x": 480,
+        "y": 420,
+        "wires": [
+            [
+                "2431cfd3059780e7"
+            ]
+        ]
+    },
+    {
+        "id": "bd5659ef27d0b358",
+        "type": "inject",
+        "z": "60e1c48e0da77525",
+        "g": "6a5d842d1ac680b9",
+        "name": "1) открыта",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "door",
+                "v": "inside",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "open",
+        "payloadType": "str",
+        "x": 480,
+        "y": 460,
+        "wires": [
+            [
+                "10f251ca45c531f4"
+            ]
+        ]
+    },
+    {
+        "id": "10f251ca45c531f4",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "6a5d842d1ac680b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "inside_open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 460,
+        "wires": [
+            [
+                "b441af0ec760c38b",
+                "7c7d0a57a2fce37d",
+                "fc3cfd567c7ffd40"
+            ]
+        ]
+    },
+    {
+        "id": "2431cfd3059780e7",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "6a5d842d1ac680b9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "inside_close",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 420,
+        "wires": [
+            [
+                "c878dcf5ac9f2128",
+                "fc3cfd567c7ffd40",
+                "88121bd7c6649639",
+                "be5b1d51d40dae90"
+            ]
+        ]
+    },
+    {
+        "id": "c177575612a9e580",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "через 5 секунд придёт сообщение о том, что дверь не закрыта",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7579d39928d22ecd",
+            "b274acfbd11fe7ea"
+        ],
+        "x": 994,
+        "y": 679,
+        "w": 417,
+        "h": 82
+    },
+    {
+        "id": "7579d39928d22ecd",
+        "type": "trigger",
+        "z": "60e1c48e0da77525",
+        "g": "c177575612a9e580",
+        "name": "",
+        "op1": "",
+        "op2": "Внешняя дверь не закрыта",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "outside_close",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1080,
+        "y": 720,
+        "wires": [
+            [
+                "b274acfbd11fe7ea"
+            ]
+        ]
+    },
+    {
+        "id": "b274acfbd11fe7ea",
+        "type": "debug",
+        "z": "60e1c48e0da77525",
+        "g": "c177575612a9e580",
+        "name": "debug 52",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "74a2e0b446dd86b6",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "См. вкладку description в группе",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "88121bd7c6649639",
+            "be5b1d51d40dae90",
+            "212b61442431f88b",
+            "4a1c57dc0fdddfe7",
+            "ddf4e274c0cf8b79",
+            "e69422f8e773e672",
+            "bbd8c21c0dcb4430",
+            "8661add87e0d6d30",
+            "8a925721a703a370"
+        ],
+        "x": 994,
+        "y": 59,
+        "w": 1032,
+        "h": 202,
+        "info": "Если за 10 секунд внутренняя дверь была открыта\\закрыта 2 или более раз(т.е. дети балуются),\r\nто придёт соответсвующее сообщение. \r\n\r\nРаботает это следующим образом.\r\n\r\nНода function считает входящие в неё сообщения от ноды которая эмитирует закрытие двери,\r\nи складывает число закрытий двери в переменную inside_door_counter.\r\n\r\nВторая часть (та, что после ноды trigger) отвечает за то, чтобы сделать дейсвтие в случае\r\nесли открытий было больше двух за 10 секунд.\r\n"
+    },
+    {
+        "id": "88121bd7c6649639",
+        "type": "function",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "context_counter",
+        "func": "context.count = context.count || 0;\n\nif (msg.payload === 'inside_close') {\n    context.count++;\n}\nelse if (typeof msg.payload === 'number') {\n    context.count = msg.payload;\n}\n\nmsg.payload = context.count;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 220,
+        "wires": [
+            [
+                "4a1c57dc0fdddfe7"
+            ]
+        ]
+    },
+    {
+        "id": "be5b1d51d40dae90",
+        "type": "trigger",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "",
+        "op1": "",
+        "op2": "За 10 секунд дверь открыли\\закрыли больше 2 раз",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "10",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1150,
+        "y": 160,
+        "wires": [
+            [
+                "212b61442431f88b",
+                "bbd8c21c0dcb4430"
+            ]
+        ]
+    },
+    {
+        "id": "212b61442431f88b",
+        "type": "switch",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "Число открытий\\закрытий двери необходимых для получения сообщения",
+        "property": "inside_door_counter",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1530,
+        "y": 160,
+        "wires": [
+            [
+                "ddf4e274c0cf8b79"
+            ]
+        ]
+    },
+    {
+        "id": "4a1c57dc0fdddfe7",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "Сохраняем в переменную inside_door_counter значение счётчика",
+        "rules": [
+            {
+                "t": "set",
+                "p": "inside_door_counter",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "inside_door_counter",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 220,
+        "wires": [
+            [
+                "e69422f8e773e672"
+            ]
+        ],
+        "info": "По идеи... эту ноду можно было и не делать, поскольку значение счётчика можно\r\nбыло сохранить в переменную в ноде function... но так нагляднее."
+    },
+    {
+        "id": "ddf4e274c0cf8b79",
+        "type": "debug",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "debug 53",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e69422f8e773e672",
+        "type": "debug",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "debug 54",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bbd8c21c0dcb4430",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "Обнуляем переменную inside_door_counter (см. description)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "inside_door_counter",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1490,
+        "y": 100,
+        "wires": [
+            [
+                "8661add87e0d6d30"
+            ]
+        ],
+        "info": "Обнуляем переменную inside_door_counter чтобы счётчик не запоминал правильные сробатывания от входа\\выхода.\r\nТ.е. когда кто-то будет обычным образом выходить или заходить в дом, этот счётчик будет записывать +1 в переменную,\r\nесли переменную не обнулить в правильном месте, то тогда будут приходить ложные сообщение о том, что дверью балуются."
+    },
+    {
+        "id": "8661add87e0d6d30",
+        "type": "link out",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "link out 49",
+        "mode": "link",
+        "links": [
+            "8a925721a703a370"
+        ],
+        "x": 1795,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8a925721a703a370",
+        "type": "link in",
+        "z": "60e1c48e0da77525",
+        "g": "74a2e0b446dd86b6",
+        "name": "link in 48",
+        "links": [
+            "8661add87e0d6d30"
+        ],
+        "x": 1035,
+        "y": 220,
+        "wires": [
+            [
+                "88121bd7c6649639"
+            ]
+        ]
+    },
+    {
+        "id": "1a5bd189bf83b67a",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "через 5 секунд придёт сообщение о том, что дверь не закрыта",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fc3cfd567c7ffd40",
+            "2a467648e07e40c2"
+        ],
+        "x": 994,
+        "y": 279,
+        "w": 417,
+        "h": 82
+    },
+    {
+        "id": "fc3cfd567c7ffd40",
+        "type": "trigger",
+        "z": "60e1c48e0da77525",
+        "g": "1a5bd189bf83b67a",
+        "name": "",
+        "op1": "",
+        "op2": "Внутренняя дверь не закрыта",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "inside_close",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1080,
+        "y": 320,
+        "wires": [
+            [
+                "2a467648e07e40c2"
+            ]
+        ]
+    },
+    {
+        "id": "2a467648e07e40c2",
+        "type": "debug",
+        "z": "60e1c48e0da77525",
+        "g": "1a5bd189bf83b67a",
+        "name": "debug 51",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ece29c027229b953",
+        "type": "group",
+        "z": "60e1c48e0da77525",
+        "name": "Тут обрабатывается ситуация когда кто-то вышел из дома (См. description)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b441af0ec760c38b",
+            "89ee779f4ccb2d60",
+            "c878dcf5ac9f2128",
+            "97d594534dd8bc36",
+            "4f0a8275e8227363",
+            "6fa68e1ee74f67f8",
+            "84d8855090e884d3",
+            "7c7d0a57a2fce37d",
+            "15564cfa647eb10e",
+            "e638ec70053502ea"
+        ],
+        "x": 994,
+        "y": 379,
+        "w": 532,
+        "h": 282,
+        "info": "По сути тут просто создаётся счётчик (flow.walk_out) которые считает дейсвтия открытия\\закрытия\r\nи после того как были выполнены все дейсвтия в правильной последовательности в debug приходит сообщение."
+    },
+    {
+        "id": "b441af0ec760c38b",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "walk_out",
+                "pt": "flow",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89ee779f4ccb2d60",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "walk_out",
+                "pt": "flow",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c878dcf5ac9f2128",
+        "type": "switch",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "",
+        "property": "walk_out",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 420,
+        "wires": [
+            [
+                "97d594534dd8bc36"
+            ]
+        ]
+    },
+    {
+        "id": "97d594534dd8bc36",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "walk_out",
+                "pt": "flow",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4f0a8275e8227363",
+        "type": "switch",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "",
+        "property": "walk_out",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 580,
+        "wires": [
+            [
+                "6fa68e1ee74f67f8",
+                "7c7d0a57a2fce37d"
+            ]
+        ]
+    },
+    {
+        "id": "6fa68e1ee74f67f8",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "walk_out",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Кто-то пришёл домой",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 580,
+        "wires": [
+            [
+                "e638ec70053502ea"
+            ]
+        ]
+    },
+    {
+        "id": "84d8855090e884d3",
+        "type": "switch",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "",
+        "property": "walk_out",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 620,
+        "wires": [
+            [
+                "89ee779f4ccb2d60"
+            ]
+        ]
+    },
+    {
+        "id": "7c7d0a57a2fce37d",
+        "type": "trigger",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "outside_close",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1240,
+        "y": 520,
+        "wires": [
+            [
+                "15564cfa647eb10e"
+            ]
+        ]
+    },
+    {
+        "id": "15564cfa647eb10e",
+        "type": "change",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "walk_out",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e638ec70053502ea",
+        "type": "debug",
+        "z": "60e1c48e0da77525",
+        "g": "ece29c027229b953",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 580,
+        "wires": []
+    }
+]
