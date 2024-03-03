@@ -1,0 +1,283 @@
+[
+    {
+        "id": "fe0dca481c4bebc0",
+        "type": "inject",
+        "z": "e3283dbacb1d4b2b",
+        "name": "Симуляция срабатывания датчика движения",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 260,
+        "y": 140,
+        "wires": [
+            [
+                "8209876fac552ac0"
+            ]
+        ]
+    },
+    {
+        "id": "8209876fac552ac0",
+        "type": "function",
+        "z": "e3283dbacb1d4b2b",
+        "name": "счётчик срабатываний",
+        "func": "context.count = context.count || 0;\n\nif (msg.payload === true) {\n    context.count++;\n}\nelse if (typeof msg.payload === 'number') {\n    context.count = msg.payload;\n}\n\nmsg.payload = context.count;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "e0788d7c5c30370c"
+            ]
+        ]
+    },
+    {
+        "id": "e0788d7c5c30370c",
+        "type": "change",
+        "z": "e3283dbacb1d4b2b",
+        "name": "Сохранение значения счётчика в переменную",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::motion_sensor_counter",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 140,
+        "wires": [
+            [
+                "e783c1eebad92f33"
+            ]
+        ]
+    },
+    {
+        "id": "e783c1eebad92f33",
+        "type": "debug",
+        "z": "e3283dbacb1d4b2b",
+        "name": "debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1db6498d0e9d9055",
+        "type": "sqlite",
+        "z": "e3283dbacb1d4b2b",
+        "mydb": "3cd254bb3d2628bf",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "887db718cb4a422f",
+                "fa49f3c2662d9527"
+            ]
+        ]
+    },
+    {
+        "id": "30eaf23417cef7c3",
+        "type": "inject",
+        "z": "e3283dbacb1d4b2b",
+        "name": "CREATE TABLE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE motion_sensor_counter (timestamp TEXT, counter INT)",
+        "x": 380,
+        "y": 220,
+        "wires": [
+            [
+                "1db6498d0e9d9055"
+            ]
+        ]
+    },
+    {
+        "id": "887db718cb4a422f",
+        "type": "debug",
+        "z": "e3283dbacb1d4b2b",
+        "name": "debug 55",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7da44db9786d7f9d",
+        "type": "function",
+        "z": "e3283dbacb1d4b2b",
+        "name": "Формируем INSERT",
+        "func": "var month = String(new Date().getMonth() + 1).padStart(2, \"0\");\nvar day = String(new Date().getDate()).padStart(2, \"0\");\nvar year = String(new Date().getFullYear()).padStart(2, \"0\");\nvar hours = String(new Date().getHours()).padStart(2, \"0\");\nvar minutes = String(new Date().getMinutes()).padStart(2, \"0\");\nvar seconds = String(new Date().getSeconds()).padStart(2, \"0\");\nvar timestamp = day + '.' + month + '.' + year + ' ' + hours + ':' + minutes + ':' + seconds\n\nvar counter = flow.get(\"motion_sensor_counter\", \"file\");\n\nvar msg = {\n    \"topic\": \"INSERT INTO motion_sensor_counter VALUES ( '\" + timestamp + \"', \" + counter + \")\"\n}\n\nmsg.payload = counter;\nreturn msg;\n\n// INSERT INTO motion_sensor_counter VALUES('29.02.2024 23:12:28', 4)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "1db6498d0e9d9055"
+            ]
+        ]
+    },
+    {
+        "id": "8b08697709b07708",
+        "type": "inject",
+        "z": "e3283dbacb1d4b2b",
+        "name": "SELECT ",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM motion_sensor_counter",
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "1db6498d0e9d9055"
+            ]
+        ]
+    },
+    {
+        "id": "fa49f3c2662d9527",
+        "type": "change",
+        "z": "e3283dbacb1d4b2b",
+        "name": "сброс счётчика",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 220,
+        "wires": [
+            [
+                "8209876fac552ac0"
+            ]
+        ]
+    },
+    {
+        "id": "1ea45bc11605061b",
+        "type": "cronplus",
+        "z": "e3283dbacb1d4b2b",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 0 * * * ? *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "7da44db9786d7f9d"
+            ]
+        ]
+    },
+    {
+        "id": "14639f6eafccacd1",
+        "type": "inject",
+        "z": "e3283dbacb1d4b2b",
+        "name": "DROP TABLE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DROP TABLE motion_sensor_counter",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "1db6498d0e9d9055"
+            ]
+        ]
+    },
+    {
+        "id": "3cd254bb3d2628bf",
+        "type": "sqlitedb",
+        "db": "/tmp/sqlite",
+        "mode": "RWC"
+    }
+]
