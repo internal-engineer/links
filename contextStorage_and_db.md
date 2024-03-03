@@ -1,4 +1,4 @@
-# Дополнительные материалы к [этому видео](#)
+# Дополнительные материалы к [этому видео](https://youtu.be/kvGxmzdDIho)
 [Инструкция по установки Node-RED](https://www.youtube.com/watch?v=IReCHprxwQ8) и некоторых других сервисов  
 [Урок по базовым нодам Node-RED](https://www.youtube.com/watch?v=ucTUK3zNX1M)
 
